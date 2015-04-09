@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.4)
+The top-level auxiliary file: thesis_pcui.aux
+The style file: acm.bst
+Database file #1: thesis_pcui.bib
+Warning--string name "april" is undefined
+--line 3508 of file thesis_pcui.bib
+Warning--string name "april" is undefined
+--line 12493 of file thesis_pcui.bib
+Warning--to sort, need author or key in metis
+Warning--to sort, need author or key in fccwhitespace
+Warning--to sort, need author or key in googledatabase
+Warning--to sort, need author or key in AzimuthACE
+Warning--to sort, need author or key in Openwrt
+Warning--to sort, need author or key in Gateworks
+Warning--to sort, need author or key in Ubnt
+Warning--to sort, need author or key in msdatabase
+Warning--to sort, need author or key in uscensus
+Warning--empty author in metis
+Warning--empty journal in metis
+Warning--empty journal in cuileveraging
+Warning--empty journal in friis
+You've used 92 entries,
+            2253 wiz_defined-function locations,
+            990 strings with 19437 characters,
+and the built_in function-call counts, 32698 in all, are:
+= -- 3141
+> -- 1560
+< -- 0
++ -- 663
+- -- 554
+* -- 2568
+:= -- 5089
+add.period$ -- 265
+call.type$ -- 92
+change.case$ -- 549
+chr.to.int$ -- 0
+cite$ -- 105
+duplicate$ -- 1198
+empty$ -- 2696
+format.name$ -- 554
+if$ -- 6873
+int.to.chr$ -- 0
+int.to.str$ -- 92
+missing$ -- 83
+newline$ -- 452
+num.names$ -- 166
+pop$ -- 666
+preamble$ -- 1
+purify$ -- 460
+quote$ -- 0
+skip$ -- 775
+stack$ -- 0
+substring$ -- 2096
+swap$ -- 326
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 362
+warning$ -- 13
+while$ -- 302
+width$ -- 94
+write$ -- 903
+(There were 15 warnings)

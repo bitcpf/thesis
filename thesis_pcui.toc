@@ -1,0 +1,61 @@
+\contentsline {chapter}{\noindent {LIST OF FIGURES}}{xiii}
+\contentsline {chapter}{\noindent {LIST OF TABLES}}{xv}
+\noindent CHAPTER \hfill \vskip 0.05in
+\contentsline {chapter}{\numberline {\hfill 1.\hbox {\hskip 0.8em}\ignorespaces }Introduction}{1}
+\contentsline {section}{\numberline {1.1.}Challenges}{3}
+\contentsline {section}{\numberline {1.2.}Contributions}{7}
+\contentsline {section}{\numberline {1.3.}Thesis Overview}{12}
+\contentsline {chapter}{\numberline {\hfill 2.\hbox {\hskip 0.8em}\ignorespaces }Background}{13}
+\contentsline {section}{\numberline {2.1.}White Space Bands}{13}
+\contentsline {section}{\numberline {2.2.}Spectrum Utilization}{14}
+\contentsline {section}{\numberline {2.3.}WiEye Measurement Platform}{15}
+\contentsline {section}{\numberline {2.4.}Gateworks Platform}{15}
+\contentsline {section}{\numberline {2.5.}Rohde \& Schwarz FSH8 Spectrum Analyzer}{17}
+\contentsline {section}{\numberline {2.6.}Mesh Network Deployment}{17}
+\contentsline {chapter}{\numberline {\hfill 3.\hbox {\hskip 0.8em}\ignorespaces }Vehicular Link Spectrum Adaptation}{19}
+\contentsline {section}{\numberline {3.1.}Link Adaptation Problem Formulation}{19}
+\contentsline {section}{\numberline {3.2.}Multiband Adaptation Algorithms}{20}
+\contentsline {section}{\numberline {3.3.}Experiments for Multiband Algorithms}{23}
+\contentsline {subsection}{\numberline {3.3.1.}In-lab Experiments for Radio Characterization}{24}
+\contentsline {subsection}{\numberline {3.3.2.}Experimental Design for In-field Data Collection}{24}
+\contentsline {section}{\numberline {3.4.}Performance Analysis of Algorithms}{26}
+\contentsline {section}{\numberline {3.5.}Summary}{30}
+\contentsline {chapter}{\numberline {\hfill 4.\hbox {\hskip 0.8em}\ignorespaces }Spectrum Adaptation for Single Hop Access Networks}{31}
+\contentsline {section}{\numberline {4.1.}White Space Opportunity and Challenge In Network Deployment}{31}
+\contentsline {section}{\numberline {4.2.}Model and Problem Formulation}{33}
+\contentsline {section}{\numberline {4.3.}Experiment and Analysis}{36}
+\contentsline {subsection}{\numberline {4.3.1.}Experiment Design}{36}
+\contentsline {subsection}{\numberline {4.3.2.}Results and Analysis}{38}
+\contentsline {section}{\numberline {4.4.}Heterogeneous Access Point Band Selection}{44}
+\contentsline {section}{\numberline {4.5.}Numerical Evaluation and Analysis}{50}
+\contentsline {subsection}{\numberline {4.5.1.}Experimental Setup}{50}
+\contentsline {subsection}{\numberline {4.5.2.}Results and Analysis}{52}
+\contentsline {section}{\numberline {4.6.}Summary}{55}
+\contentsline {chapter}{\numberline {\hfill 5.\hbox {\hskip 0.8em}\ignorespaces }Spectrum Adaptation for Scant White Space Resource}{56}
+\contentsline {section}{\numberline {5.1.}System, Assumptions and Problem Formulation}{56}
+\contentsline {subsection}{\numberline {5.1.1.}System and Assumptions}{56}
+\contentsline {subsection}{\numberline {5.1.2.}Problem Formulation}{59}
+\contentsline {subsection}{\numberline {5.1.3.}Challenges And Analysis}{61}
+\contentsline {section}{\numberline {5.2.}Experiment and Analysis}{65}
+\contentsline {subsection}{\numberline {5.2.1.}In-field Measurements}{65}
+\contentsline {subsection}{\numberline {5.2.2.}Experiments, Results and Analysis}{69}
+\contentsline {section}{\numberline {5.3.}Conclusion}{74}
+\contentsline {chapter}{\numberline {\hfill 6.\hbox {\hskip 0.8em}\ignorespaces }Spectrum Adaptation for Multihop Access Networks}{76}
+\contentsline {section}{\numberline {6.1.}Problem Formulation}{76}
+\contentsline {subsection}{\numberline {6.1.1.}WhiteMesh Network Architecture}{76}
+\contentsline {subsection}{\numberline {6.1.2.}Model and Problem Formulation}{79}
+\contentsline {subsection}{\numberline {6.1.3.}Mixed Integer Linear Programming Formulation}{81}
+\contentsline {section}{\numberline {6.2.}Path Analysis with Diverse Propagation}{84}
+\contentsline {subsection}{\numberline {6.2.1.}Path Interference Induced on the Network}{84}
+\contentsline {subsection}{\numberline {6.2.2.}Band-based Path Selection (BPS) Algorithm}{86}
+\contentsline {section}{\numberline {6.3.}Evaluation of WhiteMesh Channel Assignment}{88}
+\contentsline {subsection}{\numberline {6.3.1.}Experimental Evaluation Setup}{89}
+\contentsline {subsection}{\numberline {6.3.2.}Experimental Analysis of WhiteMesh Backhaul}{91}
+\contentsline {subsubsection}{\numberline {6.3.2.1.}Network Size \& Bands Effect}{91}
+\contentsline {subsubsection}{\numberline {6.3.2.2.}Effect of Channel Occupancy}{96}
+\contentsline {section}{\numberline {6.4.}Summary}{98}
+\contentsline {chapter}{\numberline {\hfill 7.\hbox {\hskip 0.8em}\ignorespaces }Related Work}{100}
+\contentsline {section}{\numberline {7.1.}White Space Links}{100}
+\contentsline {section}{\numberline {7.2.}White Space Networks}{101}
+\contentsline {chapter}{\numberline {\hfill 8.\hbox {\hskip 0.8em}\ignorespaces }Conclusion}{106}
+\contentsline {chapter}{REFERENCES}{107}
