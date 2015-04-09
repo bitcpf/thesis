@@ -1,31 +1,32 @@
 \contentsline {figure}{\numberline {\hfill 2.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces The Gateworks GW2358 off-shelf Platform.}}{16}
 \contentsline {figure}{\numberline {\hfill 2.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Rohde \& Schwarz FSH 8 Spectrum Analyzer.}}{17}
-\contentsline {figure}{\numberline {\hfill 3.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Experimental setup for channel emulator.}}{24}
-\contentsline {figure}{\numberline {\hfill 3.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces In-field Experimental Setup.}}{25}
-\contentsline {figure}{\numberline {\hfill 3.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Spectrum Analyzer Data Processing.}}{25}
-\contentsline {figure}{\numberline {\hfill 3.4.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Accuracy of the four multiband algorithms.}}{27}
-\contentsline {figure}{\numberline {\hfill 3.5.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Throughput Gap of the four multiband algorithms.}}{28}
-\contentsline {figure}{\numberline {\hfill 3.6.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Spatially splitting experimental area into 8 regions.}}{29}
-\contentsline {figure}{\numberline {\hfill 3.7.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Accuracy when dividing training set into 8 regions.}}{29}
-\contentsline {figure}{\numberline {\hfill 4.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Multiband Measurement Platform}}{37}
-\contentsline {figure}{\numberline {\hfill 4.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces White Space Channels in DFW Metropolitan and Surrounding Areas.}}{39}
-\contentsline {figure}{\numberline {\hfill 4.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Spectrum Activity in DFW Metropolitan and Surrounding Areas.}}{39}
-\contentsline {figure}{\numberline {\hfill 4.4.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Number of Access Points Needed for a 13 km x13 km Area.}}{41}
-\contentsline {figure}{\numberline {\hfill 4.5.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Low Traffic Scenario}}{47}
-\contentsline {figure}{\numberline {\hfill 4.6.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Medium Traffic Scenario}}{47}
-\contentsline {figure}{\numberline {\hfill 4.7.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces High Traffic Scenario}}{47}
-\contentsline {figure}{\numberline {\hfill 4.8.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Sufficient White Space Channels Scenario}}{53}
-\contentsline {figure}{\numberline {\hfill 4.9.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces One white channel}}{54}
-\contentsline {figure}{\numberline {\hfill 4.10.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Percentage of Heterogeneous Access Points}}{54}
-\contentsline {figure}{\numberline {\hfill 5.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Heterogeneous WhiteCell Structure}}{57}
-\contentsline {figure}{\numberline {\hfill 5.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces System Model}}{60}
-\contentsline {figure}{\numberline {\hfill 5.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Long Term Measurements Locations}}{66}
-\contentsline {figure}{\numberline {\hfill 5.4.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces User Distribution across Time}}{69}
-\contentsline {figure}{\numberline {\hfill 5.5.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Power Consumption across Time}}{71}
-\contentsline {figure}{\numberline {\hfill 5.6.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Power Consumption across Delay Tolerance}}{72}
-\contentsline {figure}{\numberline {\hfill 5.7.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Power Consumption across Population Distribution}}{73}
-\contentsline {figure}{\numberline {\hfill 6.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Example WhiteMesh topology with different mesh-node shapes representing different frequency band choices per link.}}{78}
-\contentsline {figure}{\numberline {\hfill 6.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Average Population Distribution = 500 $ppl/km^2$}}{91}
-\contentsline {figure}{\numberline {\hfill 6.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Varying Load, 49-Nodes Regular Grid}}{92}
-\contentsline {figure}{\numberline {\hfill 6.4.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Uniform Activity Level VS. Space Distance}}{98}
-\contentsline {figure}{\numberline {\hfill 6.5.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Traffic arrived Gateways with Activity Level \& Spacing}}{99}
+\contentsline {figure}{\numberline {\hfill 2.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces WiEye Measurements Data in the United States}}{18}
+\contentsline {figure}{\numberline {\hfill 3.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Experimental setup for channel emulator.}}{21}
+\contentsline {figure}{\numberline {\hfill 3.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces In-field Experimental Setup.}}{22}
+\contentsline {figure}{\numberline {\hfill 3.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Spectrum Analyzer Data Processing.}}{23}
+\contentsline {figure}{\numberline {\hfill 3.4.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Multiband Measurement Platform}}{24}
+\contentsline {figure}{\numberline {\hfill 3.5.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces White Space Channels in DFW Metropolitan and Surrounding Areas.}}{26}
+\contentsline {figure}{\numberline {\hfill 3.6.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Spectrum Activity in DFW Metropolitan and Surrounding Areas.}}{27}
+\contentsline {figure}{\numberline {\hfill 3.7.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Long Term Measurements Locations}}{28}
+\contentsline {figure}{\numberline {\hfill 3.8.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces User Distribution across Time}}{32}
+\contentsline {figure}{\numberline {\hfill 4.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Accuracy of the four multiband algorithms.}}{38}
+\contentsline {figure}{\numberline {\hfill 4.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Throughput Gap of the four multiband algorithms.}}{39}
+\contentsline {figure}{\numberline {\hfill 4.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Spatially splitting experimental area into 8 regions.}}{40}
+\contentsline {figure}{\numberline {\hfill 4.4.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Accuracy when dividing training set into 8 regions.}}{41}
+\contentsline {figure}{\numberline {\hfill 5.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Number of Access Points Needed for a 13 km x13 km Area.}}{47}
+\contentsline {figure}{\numberline {\hfill 5.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Low Traffic Scenario}}{52}
+\contentsline {figure}{\numberline {\hfill 5.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Medium Traffic Scenario}}{52}
+\contentsline {figure}{\numberline {\hfill 5.4.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces High Traffic Scenario}}{52}
+\contentsline {figure}{\numberline {\hfill 5.5.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Sufficient White Space Channels Scenario}}{58}
+\contentsline {figure}{\numberline {\hfill 5.6.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces One white channel}}{59}
+\contentsline {figure}{\numberline {\hfill 5.7.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Percentage of Heterogeneous Access Points}}{60}
+\contentsline {figure}{\numberline {\hfill 5.8.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Heterogeneous WhiteCell Structure}}{61}
+\contentsline {figure}{\numberline {\hfill 5.9.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces System Model}}{64}
+\contentsline {figure}{\numberline {\hfill 5.10.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Power Consumption across Time}}{71}
+\contentsline {figure}{\numberline {\hfill 5.11.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Power Consumption across Delay Tolerance}}{72}
+\contentsline {figure}{\numberline {\hfill 5.12.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Power Consumption across Population Distribution}}{73}
+\contentsline {figure}{\numberline {\hfill 6.1.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Example WhiteMesh topology with different mesh-node shapes representing different frequency band choices per link.}}{79}
+\contentsline {figure}{\numberline {\hfill 6.2.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Average Population Distribution = 500 $ppl/km^2$}}{92}
+\contentsline {figure}{\numberline {\hfill 6.3.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Varying Load, 49-Nodes Regular Grid}}{93}
+\contentsline {figure}{\numberline {\hfill 6.4.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Uniform Activity Level VS. Space Distance}}{99}
+\contentsline {figure}{\numberline {\hfill 6.5.\hbox {\hskip 0.5em}\ignorespaces }{\ignorespaces Traffic arrived Gateways with Activity Level \& Spacing}}{100}

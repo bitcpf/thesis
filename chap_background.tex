@@ -100,24 +100,18 @@ C_r=C*(1-\bar{A})
 \end{equation}
 
 
-% WiEye Measurements
-\section{WiEye Measurement Platform}
-% WiEye introduction
-WiEye application created for the data collection is currently available for download and usage via the Google Android 
-Market under the name WiEye. The application offers WiFi access points connection quality in both graphical and tabular 
-form. All data collection is done in the background, either continuously while the user is running the application or 
-periodically if the user has opted in to background data collection to SMU research. 
-The data collected has been approved by the Southern Methodist University Institutional Review Board, a human subjects 
-research committee,ensuring that all ethical precautions have been taken in collecting data from the users of our 
-application.
+\section{Measurement Platforms}
 
-% FIXME need figures
+
+In this section, we introduce our equipment for in-filed measurements.
+The general information and capability of the equipment are present 
+with detail technical parameters.
 
 
 
 
 
-\section{Gateworks Platform}
+\subsection{Gateworks Platform}
 
 The off the shelf platform we use for our measurements is the GW2358. 
 GW2358 is a member of the Gateworks Cambria Single Board Computer family. 
@@ -154,7 +148,7 @@ multiband measurements for both indoor and in-field. It helps to
 collect the SNR, throughput and packet information for the post 
 process. 
 
-\section{Rohde \& Schwarz FSH8 Spectrum Analyzer}
+\subsection{Rohde \& Schwarz FSH8 Spectrum Analyzer}
 
 The R\&S FSH 8 spectrum analyzer is designed portable for application 
 in multiple environment, especially for in-field measurement. Its low 
@@ -174,11 +168,37 @@ bands.
 \vspace{0.1in}
 \end{figure}
 
-FSH 8 is able to sense the signal in the air from 9 KHz to 
+FSH8 is able to sense the signal in the air from 9 KHz to 
 8 GHz. The spectrum analyzer could sense both 802.11 signals 
 and non-802.11 signal in the air. Through the time stamp, 
 we could merge data from Gateworks platform and FSH8 platform 
 to perform our algorithms and frameworks.
+
+
+% WiEye Measurements
+\subsection{WiEye Android Application}
+% WiEye introduction
+WiEye application created for the data collection is currently available for download and usage via the Google Android 
+Market under the name WiEye. The application offers WiFi access points connection quality in both graphical and tabular 
+form. All data collection is done in the background, either continuously while the user is running the application or 
+periodically if the user has opted in to background data collection to SMU research. 
+The data collected has been approved by the Southern Methodist University Institutional Review Board, a human subjects 
+research committee,ensuring that all ethical precautions have been taken in collecting data from the users of our 
+application.
+Now the WiEye database has more than 62 K active users all over the world.
+
+% FIXME need figures
+
+\begin{figure} 
+%\vspace{-0.1in}
+\centering
+\includegraphics[width=105mm]{figures/wieyedatamap}
+\vspace{-0.1in}
+\caption{WiEye Measurements Data in the United States}
+\label{fig:wieyeapp}
+\vspace{0.1in}
+\end{figure}
+
 
 \section{Mesh Network Deployment}
 
@@ -196,4 +216,56 @@ network which can potentially shorten multiple wireless hops.
 We analyze mesh network deployments in a scenario which includes multiple frequency bands, 
 and propose our solutions for access and backhual 
 network deployment.
+
+White space bands and WiFi bands have
+variation of propagation range making a great gap of communication range
+and interference range. Despite sufficient levels of received signal, 
+interference can cause channels to be unusable (e.g., due to high levels of 
+packet loss) or unavailable (e.g., due to primary users in cognitive radios
+~\cite{haykin2005cognitive}). Prior work has worked to reduce interference 
+levels via gateway deployment, channel assignment, and routing~\cite{he2008optimizing,tang2005interference}.
+The interference of a wireless network could be divided into two categories
+according to the interfering source: {\it (i)} intra-network interference,
+caused by nodes in the same network, and {\it (ii)} inter-network interference,
+caused by nodes or devices outside of the network. Most of the existing works
+try to reduce the intra-network interference without regard to the inter-network 
+interference~\cite{si2010overview}. However, the existence of inter-network 
+interference becomes an important problem when considering the availability
+of white space bands.  While theoretical models which describe inter-network 
+interference exist, accurately characterizing a particular region must be done empirically.
+
+% Explain multiband and activity level
+When wireless devices operate in WiFi bands, the channel separation is relatively 
+small (e.g., 5 MHz for the 2.4 GHz band). As a result, many works assume that
+the propagation characteristics across channels are similar. However, with the
+large frequency differences between WiFi and white space bands (e.g., multiple GHz),
+propagation becomes a key factor in the deployment of wireless networks with both bands.
+Here, a frequency band is defined as a group of channels which have
+little frequency separation, meaning they have similar propagation characteristics.
+In this work, we consider the diverse propagation and activity characteristics
+for four total frequency bands: 450 MHz, 800 MHz, 2.4 GHz, and 5.2 GHz.
+We refer to the two former frequency bands as white space bands and
+the two latter frequency bands as WiFi bands.
+The differences in propagation and spectrum utilization create opportunities
+for the joint use of white space and WiFi bands in wireless access networks according
+to the environmental characteristics (e.g., urban or rural and downtown or residential)
+of the deployment location.
+
+% Network Constraint
+Typically, the deployment of wireless access networks is subject to coverage and capacity
+constraints for a given region. Coverage is defined with respect to the ability of
+clients to connect to access points within their service area.  We use a coverage
+constraint ratio of $95\%$ in this work for a target area~\cite{robinson2010deploying}.
+Capacity is defined with respect to the ability of a network to serve the traffic 
+demand of clients.  Spatial reuse allows improved capacity but increases the cost
+of deploying a network by increasing the total number of access points required.
+Hence, for densely-populated areas, the greatest level of spatial reuse possible
+is often desired.  In contrast, sparsely-populated rural areas have lower traffic
+demand per unit area.  Thus, aggregating this demand with the use of lower frequencies via white 
+space bands could be highly effective in reducing the total number of access points 
+required to achieve similar coverage and capacity constraints.  Moreover, since
+less TV channels tend to be occupied in sparsely-populated areas~\cite{msdatabase}, 
+a larger number of white space bands can be leveraged in these areas.
+
+
 

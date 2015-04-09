@@ -4,25 +4,13 @@
 Metis: Mobile and wireless communications enablers for the twenty-twenty
   information society.
 
-\bibitem{Gateworks}
-Cambria gw2358-4 network platform.
-\newblock http://www.gateworks.com/, 2007.
-
 \bibitem{AzimuthACE}
 {Aximuth {ACE}-{MIMO} Channel Emulator}.
 \newblock http://www.azimuthsystems.com, Mar. 2011.
 
-\bibitem{Openwrt}
-Openwrt wireless freedom.
-\newblock https://openwrt.org/, Dec. 2011.
-
 \bibitem{fccwhitespace}
 Fcc white space.
 \newblock \url{http://www.fcc.gov/topic/white-space}, 2012.
-
-\bibitem{Ubnt}
-Ubiquiti xtremerange series of radio.
-\newblock http://www.ubnt.com/, 2012.
 
 \bibitem{googledatabase}
 Google spectrum database.

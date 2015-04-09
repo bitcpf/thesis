@@ -23,7 +23,7 @@ extremely tenuous, demanding instantaneous decisions to remain connected,
 motivating an algorithm that can find the appropriate frequency band quickly 
 and according to the current environmental context.
 
-Clearly, more available spectrum could improve the performance for 
+Clearly, more available spectrum is able to improve the performance for 
 both links and networks. The FCC has approved the use of broadband 
 services in the white spaces of UHF TV bands, which were formerly exclusively 
 licensed to television broadcasters. These white space bands are now available 
@@ -78,12 +78,6 @@ white space bands and WiFi bands in vehicular and large scale network deployment
 We also
 propose prospective graph theory solution for white space spectrum 
 in short future. 
-%Beamforming is recognized as an prospective 
-%technology to further improve the performance of wireless networks, 
-%through increasing both time reuse and spatial reuse. The potential 
-%gains of reducing deployment cost and fairness from beamforming 
-%motivated us to exploit the jointly usability of beamforming and 
-%white space bands in the future.
 
 
 \section{Challenges}
@@ -230,16 +224,33 @@ This work proposes spectrum adaptation for both the wireless links and
 large scale network deployments to improve the performance of wireless devices in 
 multiple frequency bands.
 
+% Measurements
+We perform indoor and in-field measurements in mutiple scenarios across Dallas-Fort Worth 
+metroplex.
+To do so, we use an off-the-shelf platform that allows direct comparison and 
+simultaneous experimentation across four different wireless frequency bands 
+from 450 MHz to 5.8 GHz with the same physical and media access layers. 
+We first develop a framework for multiband adaptation using both historical 
+information and instantaneous measurements. 
+We perform in-field 
+measurements of spectrum utilization in various representative scenarios 
+across the DFW metroplex, ranging from sparse rural to dense urban areas 
+and consider the environmental setting (e.g., downtown, residential, or 
+university campus). 
+We perform 24 hours in-field measurements in neighborhoods, campus, downtown business building, 
+and urban business buildings. Through these in-field measurements, we estimate the achieved channel capacity of 
+these typical area in north Texas.
+We leverage the user mobility footprint through in-filed Android based WiEye measurements of Dallas area on weekdays. 
+
+
+
+
 % VNC Contributions
 For link adaptation, we develop multiband protocols 
 which couple the prior knowledge of in-situ performance of various bands 
 with the instantaneous knowledge of spectral activity, SNR, and the current 
 location of each band to arrive at a decision for the optimal band on which to transmit. 
-To do so, we use an off-the-shelf platform that allows direct comparison and 
-simultaneous experimentation across four different wireless frequency bands 
-from 450 MHz to 5.8 GHz with the same physical and media access layers. 
-We first develop a framework for multiband adaptation using both historical 
-information and instantaneous measurements. This framework is broad enough 
+This framework is broad enough 
 to study adaptation across licensed and unlicensed bands, including white 
 space frequency bands. We propose two different machine-learning-based 
 multiband adaptation algorithms. The first machine learning algorithm, 
@@ -254,10 +265,12 @@ indicate that the proposed machine learning based algorithms improve throughput
 by up to $49.3\%$ over these baseline methods.
 
 % WINMEE
-In the access layer network deployment, we perform a measurement study 
+In the access layer network deployment, 
+we perform a measurement study 
 which considers the propagation characteristics and observed in-field 
 spectrum availability of white space and WiFi channels to find the total 
-number of access points required to serve a given user demand. Across 
+number of access points required to serve a given user demand. 
+Across 
 varying population densities in representative rural and metropolitan 
 areas, we compare the cost savings (defined in terms of number of access 
 points reduced) when white space bands are not used. To do so, we first 
@@ -273,11 +286,8 @@ settings in urban and rural areas and analyze the impact of white space
 and WiFi channel combinations on a wireless deployment in these 
 representative scenarios. 
 % Paper contributions
-The main contributions of our work in this part are as follows: We perform in-field 
-measurements of spectrum utilization in various representative scenarios 
-across the DFW metroplex, ranging from sparse rural to dense urban areas 
-and consider the environmental setting (e.g., downtown, residential, or 
-university campus). We develop a measurement-driven Multi-band Access 
+The main contributions of our work in this part are as follows: 
+We develop a measurement-driven Multi-band Access 
 Point Estimation (MAPE) framework to jointly leverage propagation and 
 spectrum availability of white space and WiFi bands for wireless access 
 networks across settings. We analyze our framework under capacity and 
@@ -319,10 +329,9 @@ across variety of population densities. The numeric results show that heterogene
 access points which jointly use white space and WiFi bands could improve 
 the budget saving up to 323\%. 
 
-
 % Whitecell
 % Work summary 
-In the scant white space resouce scenarios, we study the white space resource impacts on 
+In the white space power consumption analysis, we study the white space resource impacts on 
 mesh network power consumption via queuing theory model.
 We describe the heterogeneous wireless network structure with both white space bands and WiFi bands. 
 We formulate the system as a queuing model. We analyze the heterogeneous structure under the the waiting 
@@ -332,10 +341,6 @@ We then evaluate the algorithm, showing the power consumption gains across spars
 analyze the impact of the number of white space and WiFi channels in these representative scenarios.
 % On demand consideration
 % Paper contributions
-We perform 24 hours in-field measurements in neighborhoods, campus, downtown business building, 
-and urban business buildings. Through these in-field measurements, we estimate the achieved channel capacity of 
-these typical area in north Texas.
-We leverage the user mobility footprint through in-filed Android based WiEye measurements of Dallas area on weekdays. 
 Through the measurements analysis, we tell the user distribution in multiple types of areas across 24 hours in weekdays. 
 We formulate the heterogeneous wireless structure as a queuing system. Based on previous queuing theory works, we 
 analyze the resource allocation of the system quality of service in waiting time. Based on the analysis, we propose a 
@@ -343,10 +348,6 @@ Greedy Server-side Replace (GSR) algorithm to allocate the channel resource to m
 We perform measurement-driven numerical simulations to analyze various scenarios of channel resource and 
 users distribution. Our results shows that the white space bands reduce the power consumption in
 sparse area by up to 512.55\% in weekdays.
-
-
-
-
 
 
 % Whitemesh
@@ -406,7 +407,10 @@ complete framework for multiband wireless network deployment.
 
 In Chapter~\ref{ch:background}, we discuss the background of this work, 
 including the basic knowledge related to this work and the hardware 
-platform and software tools applied in our research. Chapter~\ref{ch:vnc} 
+platform and software tools applied in our research. 
+Chapter~\ref{ch:measurements} introduce our indoor and in-field measurements in 
+Dallas-Forth Worth metroplex.
+Chapter~\ref{ch:vnc} 
 provides an analysis and solution of vehicular link adaptation across multiple frequency bands. 
 We also propose an access network deployment 
 framework in Chapter~\ref{ch:winmee} and discuss the optimization of a 
@@ -416,8 +420,9 @@ bands to quantify the benefit of white spaces. In Chapter~\ref{ch:wm}, we propos
 algorithm to assign channels in multiband wireless network scenarios for 
 optimizing the throughput performance in multihop backhual networks. Further, we 
 quantify the heterogeneous application of white space bands and WiFi bands 
-in access points deployment process. In Chapter~\ref{ch:futurework}, we 
-propose the future in multiband network deployment using graph theory for locating
-gateway nodes. 
-Finally, we conclude our work in Chapter~\ref{ch:conclusion}.
+in access points deployment process. 
+%In Chapter~\ref{ch:futurework}, we 
+%propose the future in multiband network deployment using graph theory for locating
+%gateway nodes. 
+Finally, we conclude our work and propose future plan in Chapter~\ref{ch:conclusion}.
 
